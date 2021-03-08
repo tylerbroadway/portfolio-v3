@@ -1,10 +1,21 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-blue-500">
-    <h1>TB</h1>
+  <header className="flex flex-row justify-between h-20 bg-charcoal">
+    <div className="self-center ml-4 text-5xl text-teal">TB</div>
+    <div className="flex flex-row justify-between items-center w-1/3 px-6 py-auto">
+      <div className="text-xl text-teal">
+        <Link to="/">Home</Link>
+      </div>
+      <div className="text-xl text-teal">
+        <Link to="/projects">Projects</Link>
+      </div>
+      <div className="text-xl text-teal">
+        <Link to="/contact">Contact</Link>
+      </div>
+    </div>
   </header>
 )
 

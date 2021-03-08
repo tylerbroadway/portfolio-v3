@@ -15,7 +15,15 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-
+      obsidian: {
+        DEFAULT: "#0B0C10",
+      },
+      charcoal: {
+        DEFAULT: "#1F2833",
+      },
+      teal: {
+        DEFAULT: "#66FCF1",
+      },
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
