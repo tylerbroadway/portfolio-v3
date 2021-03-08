@@ -8,13 +8,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="flex flex-col w-3/4 mx-12 my-14">
-      <div className="text-4xl text-offWhite">
+      <h1 className="text-4xl text-offWhite">
         Hey{" "}
         <span role="img" aria-label="Hand wave emoji">
           👋
         </span>{" "}
         I'm Tyler Broadway.
-      </div>
+      </h1>
       <p className="my-6 text-3xl text-teal">
         I build cool websites using cool tech.
       </p>

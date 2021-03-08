@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const Header = () => (
   <header className="flex flex-row justify-between h-20 bg-charcoal">
-    <div className="self-center ml-4 text-5xl text-teal font-light tracking-widest">
+    <div className="self-center ml-8 text-5xl text-teal font-light tracking-widest">
       TB
     </div>
     <div className="flex flex-row justify-around items-center w-1/3 px-6 py-auto">
