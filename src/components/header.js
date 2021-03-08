@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 // import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header className="bg-blue-500">
     <h1>TB</h1>
   </header>
 )
