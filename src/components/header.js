@@ -4,17 +4,17 @@ import { Link } from "gatsby"
 
 const Header = () => (
   <header className="flex flex-row justify-between h-20 bg-charcoal">
-    <div className="self-center ml-4 text-5xl text-teal tracking-widest">
+    <div className="self-center ml-4 text-5xl text-teal font-extralight tracking-widest">
       TB
     </div>
     <div className="flex flex-row justify-around items-center w-1/3 px-6 py-auto">
-      <div className="text-xl text-teal">
+      <div className="text-xl text-teal font-extralight">
         <Link to="/">Home</Link>
       </div>
-      <div className="text-xl text-teal">
+      <div className="text-xl text-teal font-extralight">
         <Link to="/projects">Projects</Link>
       </div>
-      <div className="text-xl text-teal">
+      <div className="text-xl text-teal font-extralight">
         <Link to="/contact">Contact</Link>
       </div>
     </div>
