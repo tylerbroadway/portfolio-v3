@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="flex flex-col w-3/4 mx-12 my-14">
+    <div className="flex flex-col h-full w-3/4 mx-12 py-8">
       <h1 className="text-4xl text-offWhite">
         Hey{" "}
         <span role="img" aria-label="Hand wave emoji">
