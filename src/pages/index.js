@@ -7,14 +7,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="flex flex-col w-3/4 mx-12 my-14">
-      <div className="text-4xl text-offWhite">
+    <div className="flex flex-col h-full w-3/4 mx-12 py-10">
+      <h1 className="text-4xl text-offWhite">
         Hey{" "}
         <span role="img" aria-label="Hand wave emoji">
           👋
         </span>{" "}
         I'm Tyler Broadway.
-      </div>
+      </h1>
       <p className="my-6 text-3xl text-teal">
         I build cool websites using cool tech.
       </p>
@@ -30,9 +30,11 @@ const IndexPage = () => (
         to maintain.
       </p>
       <div className="flex flex-row justify-around items-center mt-8 w-1/3">
-        <button className="h-14 w-1/2 rounded bg-teal text-obsidian text-xl">
-          View Resumé
-        </button>
+        <div className="flex justify-center items-center h-14 w-1/2 rounded bg-teal text-obsidian text-xl hover:">
+          <a href="#" target="_blank">
+            View Resumé
+          </a>
+        </div>
         <div className="text-teal text-xl">
           <Link to="/projects/">My Work</Link>
         </div>
