@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main className="h-screen bg-obsidian">{children}</main>
+      <main className="main">{children}</main>
     </div>
   )
 }
