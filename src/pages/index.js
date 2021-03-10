@@ -45,7 +45,7 @@ const IndexPage = () => {
             aria-pressed="false"
             onClick={() => openResume()}
             onKeyDown={e => openResume()}
-            className="flex justify-center items-center h-14 w-1/2 rounded bg-teal text-obsidian text-xl hover:"
+            className="flex justify-center items-center h-14 w-1/2 rounded bg-teal text-obsidian text-xl outline-none"
           >
             View Resumé
           </div>
