@@ -3,6 +3,18 @@ import * as React from "react"
 const Project = props => {
   const { title, image, alt, repo, demo, tech, description } = props
 
+  const openRepo = () => {
+    if (typeof window !== "undefined") {
+      window.open(repo)
+    }
+  }
+
+  const openDemo = () => {
+    if (typeof window !== "undefined") {
+      window.open(demo)
+    }
+  }
+
   return (
     <div className="w-1/3 flex flex-col justify-center">
       <img
@@ -25,8 +37,8 @@ const Project = props => {
             role="button"
             tabIndex={0}
             aria-pressed="false"
-            onClick={() => window.open(repo)}
-            onKeyDown={e => window.open(repo)}
+            onClick={() => openRepo()}
+            onKeyDown={e => openRepo()}
             className="flex justify-center items-center w-1/3 h-8 mr-4 bg-teal text-obsidian rounded"
           >
             View Code
@@ -36,8 +48,8 @@ const Project = props => {
               role="button"
               tabIndex={-1}
               aria-pressed="false"
-              onClick={() => window.open(demo)}
-              onKeyDown={e => window.open(demo)}
+              onClick={() => openDemo()}
+              onKeyDown={e => openDemo()}
               className={`flex justify-center items-center w-1/3 h-8 bg-teal text-obsidian rounded`}
             >
               View Demo
