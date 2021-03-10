@@ -16,13 +16,13 @@ const ContactPage = () => {
     })
   }
 
-  const onSubmit = e => {
-    console.log(info)
+  // const onSubmit = e => {
+  //   console.log(info)
 
-    if (typeof window !== "undefined") {
-      window.location.reload()
-    }
-  }
+  //   if (typeof window !== "undefined") {
+  //     window.location.reload()
+  //   }
+  // }
 
   return (
     <Layout>
@@ -33,11 +33,13 @@ const ContactPage = () => {
         </h1>
         <div className="flex justify-center mb-10 items-center h-3/4 w-1/3">
           <form
-            onSubmit={onSubmit}
+            action="https://formspree.io/f/meqpyaeb"
+            method="POST"
             className="flex flex-col justify-center items-center h-full w-full"
           >
             <input
               className="w-full h-12 my-2 rounded-md px-2 text-obsidian outline-none"
+              type="text"
               name="name"
               placeholder="Name"
               value={info.name}
@@ -45,6 +47,7 @@ const ContactPage = () => {
             />
             <input
               className="w-full h-12 my-2 rounded-md px-2 text-obsidian outline-none"
+              type="email"
               name="email"
               placeholder="Email"
               value={info.email}
@@ -52,6 +55,7 @@ const ContactPage = () => {
             />
             <textarea
               className="w-full h-1/3 my-2 rounded-md px-2 py-2 text-obsidian outline-none"
+              type="text"
               name="message"
               placeholder="Message"
               value={info.message}
