@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
-  const openResume = () => {
+  const openResume = e => {
     if (typeof window !== "undefined") {
       window.open(
         "https://drive.google.com/file/d/1ywAHWqmNB_VM0jpoJPMWPYe1R7ef8pKZ/view?usp=sharing"
@@ -43,8 +43,8 @@ const IndexPage = () => {
             role="button"
             tabIndex={0}
             aria-pressed="false"
-            onClick={() => openResume()}
-            onKeyDown={e => openResume()}
+            onClick={openResume}
+            onKeyDown={openResume}
             className="flex justify-center items-center h-14 w-1/2 rounded bg-teal text-obsidian text-xl outline-none"
           >
             View Resumé
