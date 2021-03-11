@@ -45,11 +45,11 @@ const IndexPage = () => {
             aria-pressed="false"
             onClick={openResume}
             onKeyDown={openResume}
-            className="flex justify-center items-center h-14 w-1/2 rounded bg-teal text-obsidian text-xl outline-none"
+            className="flex justify-center items-center h-14 w-1/2 rounded bg-teal text-obsidian text-xl transform hover:scale-105  outline-none "
           >
             View Resumé
           </div>
-          <div className="text-teal text-xl">
+          <div className="text-teal text-xl transition transform hover:scale-110">
             <Link to="/projects/">My Work</Link>
           </div>
         </div>

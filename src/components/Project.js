@@ -33,27 +33,21 @@ const Project = props => {
         <h3 className="text-offWhite text-2xl my-2">{title}</h3>
         <p className="w-75 my-4 text-offWhite text-md">{description}</p>
         <div className="flex flex-row my-2">
-          <div
-            role="button"
-            tabIndex={0}
-            aria-pressed="false"
+          <button
             onClick={() => openRepo()}
             onKeyDown={e => openRepo()}
-            className="flex justify-center items-center w-1/3 h-8 mr-4 bg-teal text-obsidian rounded"
+            className="flex justify-center items-center w-1/3 h-8 mr-4 bg-teal text-obsidian rounded transition transform hover:scale-105"
           >
             View Code
-          </div>
+          </button>
           {demo ? (
-            <div
-              role="button"
-              tabIndex={-1}
-              aria-pressed="false"
+            <button
               onClick={() => openDemo()}
               onKeyDown={e => openDemo()}
-              className={`flex justify-center items-center w-1/3 h-8 bg-teal text-obsidian rounded`}
+              className={`flex justify-center items-center w-1/3 h-8 bg-teal text-obsidian rounded transition transform hover:scale-105`}
             >
               View Demo
-            </div>
+            </button>
           ) : null}
         </div>
       </div>

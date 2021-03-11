@@ -16,14 +16,6 @@ const ContactPage = () => {
     })
   }
 
-  // const onSubmit = e => {
-  //   console.log(info)
-
-  //   if (typeof window !== "undefined") {
-  //     window.location.reload()
-  //   }
-  // }
-
   return (
     <Layout>
       <SEO title="Contact" />
@@ -38,7 +30,7 @@ const ContactPage = () => {
             className="flex flex-col justify-center items-center h-full w-full"
           >
             <input
-              className="w-full h-12 my-2 rounded-md px-2 text-obsidian outline-none"
+              className="w-full h-12 my-2 rounded-md px-2 text-obsidian outline-none focus:bg-red-500"
               type="text"
               name="name"
               placeholder="Name"
@@ -62,7 +54,7 @@ const ContactPage = () => {
               onChange={onChange}
             />
             <button
-              className="flex justify-center items-center h-14 w-1/3 mt-6 rounded bg-teal text-obsidian text-xl outline-none"
+              className="flex justify-center items-center h-14 w-1/3 mt-6 rounded bg-teal text-obsidian text-xl outline-none tracking-wide transition transform hover:scale-105"
               type="submit"
             >
               Send
