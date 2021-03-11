@@ -79,7 +79,7 @@ function SEO({ lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: image,
+          content: ogImg,
         },
       ].concat(meta)}
     />
