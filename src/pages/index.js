@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -24,9 +23,7 @@ const IndexPage = () => {
           </span>{" "}
           I'm Tyler Broadway.
         </h1>
-        <p className="my-6 text-3xl text-teal">
-          I build cool websites using cool tech.
-        </p>
+        <p className="my-6 text-3xl text-teal">I like to build things.</p>
         <p className="my-2 text-xl text-offWhite">
           I'm a software engineer with experience building full-stack
           applications, modern websites, and custom REST APIs. I have a passion
