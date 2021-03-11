@@ -8,13 +8,13 @@ const Header = () => (
       TB
     </div>
     <div className="flex flex-row justify-around items-center w-1/3 px-6 py-auto">
-      <div className="text-xl text-teal font-light tracking-wide">
+      <div className="text-xl text-teal font-light tracking-wide transform hover:scale-110">
         <Link to="/">Home</Link>
       </div>
-      <div className="text-xl text-teal font-light tracking-wide">
+      <div className="text-xl text-teal font-light tracking-wide transform hover:scale-110">
         <Link to="/projects">Projects</Link>
       </div>
-      <div className="text-xl text-teal font-light tracking-wide">
+      <div className="text-xl text-teal font-light tracking-wide transform hover:scale-110">
         <Link to="/contact">Contact</Link>
       </div>
     </div>
