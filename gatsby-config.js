@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Tyler Broadway`,
+    defaultTitle: `Tyler Broadway`,
     description: `My personal website, where I show off some of my favorite personal projects.`,
     author: `Tyler Broadway`,
     url: "https://tylerbroadway.dev/",
-    image: "/images/link-img.jpg",
+    image: "./src/images/link-img.jpg",
     twitterUsername: "@tyler_broadway",
   },
   plugins: [

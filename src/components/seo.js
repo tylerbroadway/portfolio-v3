@@ -16,6 +16,7 @@ function SEO({ lang, meta, title }) {
       query {
         site {
           siteMetadata {
+            defaultTitle
             description
             image
             url
@@ -26,7 +27,13 @@ function SEO({ lang, meta, title }) {
     `
   )
 
-  const { description, image, url, twitterUsername } = site.siteMetadata
+  const {
+    defaultTitle,
+    description,
+    image,
+    url,
+    twitterUsername,
+  } = site.siteMetadata
 
   return (
     <Helmet
@@ -41,9 +48,10 @@ function SEO({ lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: defaultTitle,
         },
         {
+          name: `image`,
           property: `og:image`,
           content: image,
         },
@@ -69,7 +77,7 @@ function SEO({ lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: defaultTitle,
         },
         {
           name: `twitter:description`,
