@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Tyler Broadway`,
+    description: `My personal website, where I show off some of my favorite personal projects.`,
+    author: `Tyler Broadway`,
+    url: "https://tylerbroadway.dev/",
+    image: "/images/link-img.jpg",
+    twitterUsername: "@tyler_broadway",
   },
   plugins: [
     `gatsby-plugin-postcss`,
