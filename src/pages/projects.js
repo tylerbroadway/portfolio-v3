@@ -11,7 +11,7 @@ const ProjectsPage = () => {
       image: "https://pi.math.cornell.edu/~lipa/mec/banner.png",
       alt: "View of cellular automata simulation.",
       description:
-        "An implementation of the infamous Conway's Game of Life using React. Built using React, and Styled Components.",
+        "An implementation of John Conway's infamous Game of Life. Built using React, and Styled Components.",
       tech: ["JavaScript", "React", "Styled Components"],
       repo: "https://github.com/tylerbroadway/game-of-life",
       demo: "https://conways-game-of-life-tb.netlify.app/",
@@ -22,7 +22,7 @@ const ProjectsPage = () => {
         "https://pbs.twimg.com/profile_images/1333471260483801089/OtTAJXEZ_400x400.jpg",
       alt: "Reddit logo",
       description:
-        "An API that makes requests to an external API for suggestions as to which sub-reddit to post in.",
+        "An API that makes requests to an external API for recommendations as to which sub-reddit to post in.",
       tech: ["Node.js", "Express.js", "Knex.js", "PostgreSQL"],
       repo: "https://github.com/Post-It-Here/backend",
       demo: "",

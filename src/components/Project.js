@@ -29,10 +29,12 @@ const Project = props => {
           </span>
         ))}
       </div>
-      <div className="w-full px-6">
+      <div className="w-full px-6 my-2">
         <h3 className="text-offWhite text-2xl my-2">{title}</h3>
-        <p className="w-75 my-4 text-offWhite text-md">{description}</p>
-        <div className="flex flex-row my-2">
+        <p className="w-75 my-4 text-offWhite text-md leading-relaxed">
+          {description}
+        </p>
+        <div className="flex flex-row my-6">
           <button
             onClick={() => openRepo()}
             onKeyDown={e => openRepo()}

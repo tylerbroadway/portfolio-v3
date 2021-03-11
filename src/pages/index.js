@@ -29,14 +29,12 @@ const IndexPage = () => {
         </p>
         <p className="my-2 text-xl text-offWhite">
           I'm a software engineer with experience building full-stack
-          applications, modern websites and custom REST APIs. I have a passion
-          for making websites that are as simple and easy to use as possible,
-          without taking away from their functionality.
+          applications, modern websites, and custom REST APIs. I have a passion
+          for bringing new ideas to life, and solving hard problems.
         </p>
         <p className="my-4 text-xl text-offWhite">
-          I specialize in serverless architecture, headless websites and the
-          JAMstack. Every application I build is secure, high-performing and
-          easy to maintain.
+          I specialize in serverless architecture, and the JAMstack. I'm
+          interested in blockchain, smart contracts, and everything Web 3.0.
         </p>
         <div className="flex flex-row justify-around items-center mt-8 w-1/3">
           <div

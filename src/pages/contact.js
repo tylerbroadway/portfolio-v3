@@ -30,7 +30,7 @@ const ContactPage = () => {
             className="flex flex-col justify-center items-center h-full w-full"
           >
             <input
-              className="w-full h-12 my-2 rounded-md px-2 text-obsidian outline-none focus:bg-red-500"
+              className="w-full h-12 my-2 rounded-md px-2 text-obsidian outline-none focus:"
               type="text"
               name="name"
               placeholder="Name"
