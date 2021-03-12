@@ -16,7 +16,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className="flex flex-col h-full w-3/4 mx-12 py-10">
-        <h1 className="text-4xl text-offWhite">
+        <h1 className="mt-4 text-4xl text-offWhite">
           Hey{" "}
           <span role="img" aria-label="Hand wave emoji">
             👋
@@ -24,14 +24,14 @@ const IndexPage = () => {
           I'm Tyler Broadway.
         </h1>
         <p className="my-6 text-3xl text-teal">I like to build things.</p>
-        <p className="my-2 text-xl text-offWhite">
+        <p className="my-2 text-xl w-3/4 text-offWhite leading-8">
           I'm a software engineer with experience building full-stack
           applications, modern websites, and custom REST APIs. I have a passion
           for bringing new ideas to life, and solving hard problems.
         </p>
-        <p className="my-4 text-xl text-offWhite">
+        <p className="my-4 w-3/4 text-xl text-offWhite leading-8">
           I specialize in serverless architecture, and the JAMstack. I'm
-          interested in blockchain, smart contracts, and everything Web 3.0.
+          interested in blockchain, smart contracts, and everything Web3.
         </p>
         <div className="flex flex-row justify-around items-center mt-8 w-1/3">
           <div
