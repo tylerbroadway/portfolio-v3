@@ -30,15 +30,15 @@ const Project = props => {
         ))}
       </div>
       <div className="w-full px-6 my-2">
-        <h3 className="text-offWhite text-2xl my-2">{title}</h3>
-        <p className="w-75 my-4 text-offWhite text-md leading-relaxed">
+        <h3 className="text-offWhite text-2xl my-2 font-light">{title}</h3>
+        <p className="w-75 my-4 text-offWhite text-md leading-relaxed font-light">
           {description}
         </p>
         <div className="flex flex-row my-6">
           <button
             onClick={() => openRepo()}
             onKeyDown={e => openRepo()}
-            className="flex justify-center items-center w-1/3 h-8 mr-4 bg-teal text-obsidian rounded transition transform hover:scale-105"
+            className="flex justify-center items-center w-1/3 h-8 mr-4 bg-teal text-obsidian rounded transition transform hover:scale-105 font-light"
           >
             View Code
           </button>
@@ -46,7 +46,7 @@ const Project = props => {
             <button
               onClick={() => openDemo()}
               onKeyDown={e => openDemo()}
-              className={`flex justify-center items-center w-1/3 h-8 bg-teal text-obsidian rounded transition transform hover:scale-105`}
+              className={`flex justify-center items-center w-1/3 h-8 bg-teal text-obsidian rounded transition transform hover:scale-105 font-light`}
             >
               View Demo
             </button>

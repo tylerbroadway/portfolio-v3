@@ -43,7 +43,7 @@ const ProjectsPage = () => {
     <Layout>
       <SEO title="Projects" />
       <div className="container flex flex-col">
-        <h1 className="mt-2 text-offWhite text-3xl justify-center self-center">
+        <h1 className="mt-2 text-offWhite text-3xl justify-center self-center font-light">
           Recent Projects
         </h1>
         <div className="flex flex-row flex-wrap content-center mt-8 mx-auto justify-end">
