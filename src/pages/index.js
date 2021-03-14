@@ -46,7 +46,7 @@ const IndexPage = () => {
           >
             View Resumé
           </div>
-          <div className="text-teal text-xl transition transform hover:scale-110 font-light">
+          <div className="text-teal text-xl transition transform hover:scale-105 font-light">
             <Link to="/projects/">My Work</Link>
           </div>
         </div>
