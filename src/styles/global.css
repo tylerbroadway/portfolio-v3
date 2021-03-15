@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .main {
-  @apply h-screen;
+  @apply sm:h-screen;
   @apply bg-obsidian;
 }
