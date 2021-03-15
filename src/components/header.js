@@ -7,7 +7,7 @@ const Header = () => (
     <div className="self-center ml-8 text-4xl text-teal font-light tracking-wider">
       TB
     </div>
-    <div className="flex flex-row justify-around items-center w-1/3 px-6 py-auto">
+    <div className="flex flex-row justify-around items-center w-1/3 px-6 py-auto hidden">
       <div className="text-xl text-teal font-light tracking-wide transform hover:scale-110">
         <Link to="/">Home</Link>
       </div>
