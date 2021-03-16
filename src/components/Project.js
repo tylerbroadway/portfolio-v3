@@ -40,7 +40,7 @@ const Project = props => {
             onKeyDown={e => openRepo()}
             className="flex justify-center items-center w-1/3 h-8 mr-4 bg-teal text-obsidian rounded transition transform hover:scale-105 font-light"
           >
-            View Code
+            GitHub
           </button>
           {demo ? (
             <button
@@ -48,7 +48,7 @@ const Project = props => {
               onKeyDown={e => openDemo()}
               className={`flex justify-center items-center w-1/3 h-8 bg-teal text-obsidian rounded transition transform hover:scale-105 font-light`}
             >
-              View Demo
+              Demo
             </button>
           ) : null}
         </div>
