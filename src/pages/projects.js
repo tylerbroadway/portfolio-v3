@@ -49,7 +49,7 @@ const ProjectsPage = () => {
             🛠
           </span>{" "}
         </h1>
-        <div className="flex flex-row flex-wrap content-center mt-8 mx-auto justify-end">
+        <div className="md:flex md:flex-row flex-wrap content-center mt-8 mx-auto justify-end">
           {projects.map(project => (
             <Project
               title={project.title}
