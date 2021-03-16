@@ -19,8 +19,8 @@ const ContactPage = () => {
   return (
     <Layout>
       <SEO title="Contact" />
-      <div className="flex flex-row items-start justify-start content-start h-full">
-        <div className="flex flex-col items-start w-5/12 my-20 mx-10">
+      <div className="md:flex md:flex-row md:items-start md:justify-start md:h-full border-2 border-black">
+        <div className="flex flex-col items-start md:w-5/12 mt-10 mb-10 mx-10">
           <h1 className="text-offWhite text-3xl font-sans tracking-wide mt-6 font-light">
             Reach Out!
           </h1>
@@ -29,7 +29,7 @@ const ContactPage = () => {
             engineer, send a message! I try to respond within 24 hours.
           </p>
         </div>
-        <div className="my-20 ml-8 h-3/4 w-5/12">
+        <div className="md:my-20 ml-8 h-3/4 md:w-5/12">
           <form
             action="https://formspree.io/f/meqpyaeb"
             method="POST"
@@ -60,7 +60,7 @@ const ContactPage = () => {
               onChange={onChange}
             />
             <button
-              className="flex justify-center items-center h-14 w-1/3 mt-6 rounded bg-teal text-obsidian text-xl outline-none tracking-wide transition transform hover:scale-105"
+              className="flex justify-center items-center h-14 w-1/3 mt-6 mb-6 rounded bg-teal text-obsidian text-xl outline-none tracking-wide transition transform hover:scale-105"
               type="submit"
             >
               Send
