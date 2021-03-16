@@ -44,7 +44,7 @@ const IndexPage = () => {
             onKeyDown={openResume}
             className="flex justify-center items-center h-14 md:w-1/2 rounded bg-teal px-2 text-obsidian text-xl transform hover:scale-105  outline-none font-light"
           >
-            View Resumé
+            My Resume
           </div>
           <div className="text-teal text-xl transition transform hover:scale-110 font-light">
             <Link to="/projects/">My Work</Link>
