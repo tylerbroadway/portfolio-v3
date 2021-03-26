@@ -32,8 +32,8 @@ const IndexPage = () => {
           for bringing new ideas to life, and solving hard problems.
         </p>
         <p className="my-4 md:w-3/4 text-xl text-offWhite leading-8 font-light">
-          I specialize in serverless architecture, and the JAMstack. I'm
-          interested in blockchain, smart contracts, and everything Web3.
+          I specialize in serverless architecture, and the JAMstack. If you're
+          looking for a great engineer, I'm looking for a job!
         </p>
         <div className="flex flex-row justify-around items-center mt-8 md:w-1/3">
           <div
