@@ -7,7 +7,7 @@ const IndexPage = () => {
   const openResume = e => {
     if (typeof window !== "undefined") {
       window.open(
-        "https://docs.google.com/document/d/1BZaCeRoeG7TF8LNMl3vp3aJTJte7rC2EDnhneRR-NHk/edit?usp=sharing"
+        "https://docs.google.com/document/d/1Foir4d9Z9AasRIA4qiw2S2A82gxTB2gePxZU8tHn584/edit?usp=sharing"
       )
     }
   }
